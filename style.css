@@ -1,0 +1,30 @@
+body{
+    background-size: 1000px 1050px;
+}
+.title {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px  5px 5px rgb(71, 70, 70);
+  }
+  .nota {
+    font-size: 15px;
+    box-shadow: 5px  5px 5px rgb(71, 70, 70);
+  }
+  canvas {
+    background-color: rgb(136, 216, 216);
+    border-radius: 25px 25px;
+    border: 5px solid black;
+    animation-name:rotacao;
+    animation-duration: 3s;
+    box-shadow: 5px  5px 5px rgb(71, 70, 70);
+
+  }
+  @keyframes rotacao{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+  }
